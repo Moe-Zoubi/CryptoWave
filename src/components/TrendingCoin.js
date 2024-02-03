@@ -7,11 +7,6 @@ function TrendingCoin() {
     const url = `https://api.coingecko.com/api/v3/search/trending`;
 
     const [data, setData] = useState([]);
-    const [loadApi, setLoadApi] = useState(true);
-
-    function currencyFormatter(amount) {
-        return amount.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
-    }
 
     function decimalPlace(amountText) {
         const amount = parseFloat(amountText.replace(/\$/g, ''));
