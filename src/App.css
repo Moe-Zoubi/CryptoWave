@@ -1,5 +1,5 @@
 html{
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Merriweather', serif;
   font-size: 63%;
 }
 
@@ -23,9 +23,16 @@ ul{
   -webkit-text-fill-color: transparent;
 }
 
+.green-text{
+  color: #64ea11;
+}
+
+.red-text{
+  color: #ea1111;
+}
+
 .App{
   background: linear-gradient(to bottom, #12100E, #2B4162, #12100E);
-  height: 100vh;
 }
 
 /* navbar */
