@@ -42,8 +42,6 @@ function TrendingCoin() {
         return topFour;
     }
 
-    console.log(topFourCoins()[0])
-
     return(
         <div className="popular-coins">
             <div className="trending-container">
@@ -54,12 +52,12 @@ function TrendingCoin() {
                             <p>{coin.name}</p>
                             <p 
                             className={
-                                parseFloat(coin.data.price_change_percentage_24h.usd.toPrecision(3)) > 0 
+                                parseFloat(coin.data.price_change_percentage_24h.usd.toFixed(2)) > 0 
                                 ? "green-text" 
                                 :"red-text"
                             }
                             >
-                                {`${parseFloat(coin.data.price_change_percentage_24h.usd.toPrecision(3))}%`}
+                                {`${parseFloat(coin.data.price_change_percentage_24h.usd.toFixed(2))}%`}
                             </p>
                         </div>
                         <p>{`$${decimalPlace(coin.data.price)}`}</p>

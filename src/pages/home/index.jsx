@@ -9,12 +9,14 @@ const Home = () => {
 
     return(
         <div className="home" id="home">
-            <div className="home-title">
-                <img src={bitcoin} alt="bitcoin icon" />
-                <h1>TRACK AND TRADE <br/><span className="highlighted">CRYPTO CURRENCIES</span></h1>
-                <img src={ethereum} alt="ethereum icon" />
+            <div className="hero">
+                <div className="home-title">
+                    <img src={bitcoin} alt="bitcoin icon" />
+                    <h1>TRACK AND TRADE <br/><span className="highlighted">CRYPTO CURRENCIES</span></h1>
+                    <img src={ethereum} alt="ethereum icon" />
+                </div>
+                <TrendingCoin />
             </div>
-            <TrendingCoin />
         </div>
     )
 }
