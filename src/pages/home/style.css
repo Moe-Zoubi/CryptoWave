@@ -34,3 +34,38 @@
       transform: translateY(-80%);
     }
   }
+
+/* trending coins */
+.popular-coins{
+  margin: 2rem 5%;
+}
+
+.trending-container{
+  display: flex;
+  justify-content: space-evenly;
+  color: white;
+}
+
+.coin{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 2rem;
+}
+
+.coin img{
+  width: 90px;
+  border-radius: 50%;
+}
+
+.coin p{
+  margin: 0;
+  font-weight: 600;
+}
+
+.flex-trending{
+  display: flex;
+  gap: 1rem;
+  margin: 1.5rem 0;
+}
