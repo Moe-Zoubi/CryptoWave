@@ -1,0 +1,36 @@
+.home{
+    padding-top: 15%;
+}
+
+.home-title h1{
+    width: fit-content;
+    text-align: center;
+    font-size: 9rem;
+    color: white;
+}
+
+.home-title{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.home-title img{
+    width: 90px;
+    animation: updown 2s ease infinite;
+}
+
+@keyframes updown {
+    0% {
+      transform: translateY(-80%);
+    }
+  
+    50% {
+      transform: translateY(-50%);
+    }
+  
+    100% {
+      transform: translateY(-80%);
+    }
+  }

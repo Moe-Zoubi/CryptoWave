@@ -1,14 +1,15 @@
 import "./style.css"
 
 
-const Home = () => {
+const Coin = () => {
 
 
     return(
         <div className="home">
 
+            <h1>hello</h1>
         </div>
     )
 }
 
-export default Home;
+export default Coin;

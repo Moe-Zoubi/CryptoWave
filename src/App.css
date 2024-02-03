@@ -1,4 +1,79 @@
+html{
+  font-family: 'Roboto', sans-serif;
+  font-size: 63%;
+}
+
 html, body{
   margin: 0;
   padding: 0;
+}
+
+a{
+  text-decoration: none;
+  color: white;
+}
+
+ul{
+  list-style: none;
+}
+
+.highlighted{
+  background: linear-gradient(45deg,#3c629f , #6c635e);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.App{
+  background: linear-gradient(to bottom, #12100E, #2B4162, #12100E);
+  height: 100vh;
+}
+
+/* navbar */
+.navbar{
+  background-color: transparent;
+  position: relative;
+}
+
+.nav-container{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+  margin: 1rem 5%;
+  position: fixed;
+  width: 90%;
+  z-index: 999;
+}
+
+.nav-links{
+  display: flex;
+  font-size: 2.5rem;
+  width: auto;
+  gap:5rem;
+  font-weight: 600;
+}
+
+.nav-links li a:hover{
+  transition: all 0.3s ease-in-out;
+}
+
+
+.nav-links li a:hover{
+  background: linear-gradient(180deg,#3c629f , #6c635e);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.nav-socials{
+  display: flex;
+  gap: 3rem;
+}
+
+.nav-socials img{
+  width: 40px;
+}
+
+.navbar h3{
+  font-size: 3rem;
+  font-family: 'Roboto', sans-serif;
 }
