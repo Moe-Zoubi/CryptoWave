@@ -1,9 +1,12 @@
 import { useEffect, useState } from "react";
+import { useNavigate } from 'react-router-dom';
 
 
 
 function TrendingCoin() {
 
+    const navigate = useNavigate();
+    
     const url = `https://api.coingecko.com/api/v3/search/trending`;
 
     const [data, setData] = useState([]);
@@ -46,7 +49,7 @@ function TrendingCoin() {
         <div className="popular-coins">
             <div className="trending-container">
                 {topFourCoins().map((coin) => (
-                    <div className="coin" key={coin.coin_id}>
+                    <div className="coin" key={coin.coin_id} onClick={() => navigate(`/coin/:${coin.id}`)}>
                         <img src={coin.large} alt="coin icon" />
                         <div className="flex-trending">
                             <p>{coin.name}</p>

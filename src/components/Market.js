@@ -41,7 +41,7 @@ console.log(data)
                     </thead>
                     <tbody>
                       {data.map((coin) => (
-                        <tr key={coin.id} className="coin-row">
+                        <tr key={coin.id} className="coin-row" onClick={() => navigate(`/coin/:${coin.id}`)}>
                           <td>
                             <img src={coin.image} alt="coin icon" />
                             {coin.name}
