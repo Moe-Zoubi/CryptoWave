@@ -40,6 +40,13 @@ ul{
 .navbar{
   background-color: transparent;
   position: relative;
+  z-index: 999;
+  position: fixed;
+  width: 100%;
+}
+
+.nav-bg{
+  background-color: #12100E;
 }
 
 .nav-container{
@@ -48,9 +55,6 @@ ul{
   align-items: center;
   color: white;
   margin: 1rem 5%;
-  position: fixed;
-  width: 90%;
-  z-index: 999;
 }
 
 .nav-links{
