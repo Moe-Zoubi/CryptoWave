@@ -75,3 +75,101 @@
   gap: 1rem;
   margin: 1.5rem 0;
 }
+
+/* market table */
+.market{
+  margin: 0 5%;
+  color: white;
+}
+
+.market h2{
+  font-size: 5rem;
+  font-weight: 500;
+}
+
+.table-container {
+  font-weight: 400;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+thead{
+  background: linear-gradient(180deg, #4e7ca8, #a09b90);
+}
+
+th, td {
+  padding: 30px 20px;
+  text-align: left; /* Set left alignment for all columns initially */
+}
+
+th{
+  font-size: 3rem;
+}
+
+th:nth-child(1){
+  border-radius: 15px 0 0 5px;
+}
+
+th:nth-last-child(1){
+  border-radius: 0 15px 5px 0;
+}
+
+td{
+  border-bottom: 1px solid #ddd;
+  font-size: 2.5rem;
+  font-weight: 500;
+}
+
+td:first-child{
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+}
+
+td img{
+  width: 50px;
+}
+
+th:first-child, td:first-child {
+  text-align: left; /* Set left alignment for the first column */
+}
+
+th:not(:first-child), td:not(:first-child) {
+  text-align: right; /* Set right alignment for all columns except the first one */
+}
+
+.coin-row{
+  transition: all 0.2s ease-in;
+}
+
+.coin-row:hover{
+  background-color: #4b6985;
+}
+
+.page{
+  margin-top: 4rem;
+  display: flex;
+  gap: 3rem;
+  justify-content: center;
+  align-items: center;
+}
+
+.page button{
+  padding: 1.5rem 2rem;
+  font-size: 2rem;
+  border-radius: 200px;
+  transition: all 0.3s ease-in-out;
+}
+
+.page button:hover{
+  background-color: #4b6985;
+  color: white;
+}
+
+.active{
+  background-color: #4b6985;
+  color: white;
+}

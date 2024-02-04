@@ -2,6 +2,7 @@ import "./style.css";
 import bitcoin from "../../images/coins/bitcoin.png";
 import ethereum from "../../images/coins/ethereum.png";
 import TrendingCoin from "../../components/TrendingCoin";
+import Market from "../../components/Market";
 
 
 const Home = () => {
@@ -17,6 +18,7 @@ const Home = () => {
                 </div>
                 <TrendingCoin />
             </div>
+            <Market />
         </div>
     )
 }
