@@ -143,6 +143,7 @@ th:not(:first-child), td:not(:first-child) {
 
 .coin-row{
   transition: all 0.2s ease-in;
+  cursor: pointer;
 }
 
 .coin-row:hover{
@@ -162,6 +163,7 @@ th:not(:first-child), td:not(:first-child) {
   font-size: 2rem;
   border-radius: 200px;
   transition: all 0.3s ease-in-out;
+  cursor: pointer;
 }
 
 .page button:hover{
