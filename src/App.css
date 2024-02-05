@@ -18,7 +18,7 @@ ul{
 }
 
 .highlighted{
-  background: linear-gradient(45deg,#3c629f , #6c635e);
+  background: linear-gradient(25deg,#2600fc,#ff00ea);;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -32,7 +32,7 @@ ul{
 }
 
 .App{
-  background: linear-gradient(to bottom, #12100E, #2B4162, #12100E);
+  background: linear-gradient(0deg,#0f051d 30%,#130749 70%);
   padding-bottom: 4rem;
 }
 
@@ -46,7 +46,7 @@ ul{
 }
 
 .nav-bg{
-  background-color: #12100E;
+  background-color: #0f051d;
 }
 
 .nav-container{

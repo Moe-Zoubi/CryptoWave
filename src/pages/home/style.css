@@ -97,7 +97,7 @@ table {
 }
 
 thead{
-  background: linear-gradient(180deg, #4e7ca8, #a09b90);
+  background: linear-gradient(25deg,#2600fc,#ff00ea);
 }
 
 th, td {
@@ -147,7 +147,7 @@ th:not(:first-child), td:not(:first-child) {
 }
 
 .coin-row:hover{
-  background-color: #4b6985;
+  background-color: #6e389d62;
 }
 
 .page{
@@ -167,11 +167,11 @@ th:not(:first-child), td:not(:first-child) {
 }
 
 .page button:hover{
-  background-color: #4b6985;
+  background-color: #6e389d62;
   color: white;
 }
 
 .active{
-  background-color: #4b6985;
+  background-color: #6e389d62;
   color: white;
 }
