@@ -3,6 +3,9 @@ import bitcoin from "../../images/coins/bitcoin.png";
 import ethereum from "../../images/coins/ethereum.png";
 import TrendingCoin from "../../components/TrendingCoin";
 import Market from "../../components/Market";
+import ChooseUs from "../../components/ChooseUs";
+import Join from "../../components/Join";
+import Footer from "../../components/Footer";
 
 
 const Home = () => {
@@ -19,6 +22,9 @@ const Home = () => {
                 <TrendingCoin />
             </div>
             <Market />
+            <ChooseUs />
+            <Join />
+            <Footer />
         </div>
     )
 }

@@ -17,6 +17,10 @@ ul{
   list-style: none;
 }
 
+h1,h2{
+  font-family: 'Space Grotesk', sans-serif;
+}
+
 .highlighted{
   background: linear-gradient(25deg,#2600fc,#ff00ea);;
   -webkit-background-clip: text;
@@ -34,6 +38,7 @@ ul{
 .App{
   background: linear-gradient(0deg,#0f051d 30%,#130749 70%);
   padding-bottom: 4rem;
+  color: white;
 }
 
 /* navbar */

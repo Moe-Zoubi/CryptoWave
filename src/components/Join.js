@@ -1,11 +1,18 @@
-
+import bitcoin from "../images/coins/bitcoin.png";
+import ethereum from "../images/coins/ethereum.png";
 
 function Join(){
 
 
     return(
         <div className="join-us">
-
+            <div className="join-title">
+                <img src={bitcoin} alt="bitcoin icon" />
+                <h1>JOIN US ON <br/><span className="highlighted">DISCORD</span></h1>
+                <img src={ethereum} alt="ethereum icon" />
+            </div>
+            <p>Invest and manage all your crypto at one place.</p>
+            <button>Join Via Discord</button>
         </div>
     )
 }
