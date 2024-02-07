@@ -1,0 +1,77 @@
+.coin-page{
+    margin: 0 5%;
+    height: 95vh;
+}
+
+.coin-container{
+    padding-top: 15%;
+    display: flex;
+    gap: 6rem;
+}
+
+.coin-ranking{
+    border-right: 2px solid white;
+    padding-right: 6rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.coin-ranking img{
+    border-radius: 50%;
+}
+
+.coin-ranking h3{
+    font-size: 3.5rem;
+    margin: 1rem 0;
+}
+
+.coin-ranking p{
+    font-size: 2rem;
+}
+
+.coin-description{
+    display: flex;
+    flex-direction: column;
+    gap: 5rem;
+    font-family: 'Space Grotesk', sans-serif;
+}
+
+.coin-description h5{
+    margin: 0;
+}
+
+.coin-headings{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 2.5rem;
+}
+
+.coin-headings h5{
+    display: flex;
+    gap: 1rem;
+}
+
+.coin-description p{
+    height: 400px;
+    font-size: 2.5rem;
+    line-height: 1.5;
+    overflow: hidden;
+    overflow-y: scroll;
+    padding-right: 1rem;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background: #2600fc5e;
+}
+  
+ ::-webkit-scrollbar-thumb {
+    background: #2600fc8f;
+    border-radius: 15px;
+}

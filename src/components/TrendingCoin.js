@@ -49,7 +49,7 @@ function TrendingCoin() {
         <div className="popular-coins">
             <div className="trending-container">
                 {topFourCoins().map((coin) => (
-                    <div className="coin" key={coin.coin_id} onClick={() => navigate(`/coin/:${coin.id}`)}>
+                    <div className="coin" key={coin.coin_id} onClick={() => navigate(`/coin/${coin.id}`)}>
                         <img src={coin.large} alt="coin icon" />
                         <div className="flex-trending">
                             <p>{coin.name}</p>

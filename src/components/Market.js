@@ -24,8 +24,6 @@ function Market() {
         fetchData();
       }, [url]);
 
-console.log(data)
-
       const marketTable = () => {
         if(data !== undefined){
             return (
@@ -41,7 +39,7 @@ console.log(data)
                     </thead>
                     <tbody>
                       {data.map((coin) => (
-                        <tr key={coin.id} className="coin-row" onClick={() => navigate(`/coin/:${coin.id}`)}>
+                        <tr key={coin.id} className="coin-row" onClick={() => navigate(`/coin/${coin.id}`)}>
                           <td>
                             <img src={coin.image} alt="coin icon" />
                             {coin.name}
