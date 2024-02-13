@@ -5,10 +5,10 @@ function Join(){
 
 
     return(
-        <div className="join-us">
+        <div className="join-us" id="join">
             <div className="join-title">
                 <img src={bitcoin} alt="bitcoin icon" />
-                <h1>JOIN US ON <br/><span className="highlighted">DISCORD</span></h1>
+                <h2>JOIN US ON <br/><span className="highlighted">DISCORD</span></h2>
                 <img src={ethereum} alt="ethereum icon" />
             </div>
             <p>Invest and manage all your crypto at one place.</p>

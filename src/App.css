@@ -1,6 +1,7 @@
 html{
   font-family: 'Merriweather', serif;
   font-size: 63%;
+  scroll-padding: 15rem;
 }
 
 html, body{
@@ -39,6 +40,57 @@ h1,h2{
   background: linear-gradient(0deg,#0f051d 30%,#130749 70%);
   padding-bottom: 4rem;
   color: white;
+}
+
+@media screen and (max-width:450px){
+  .choose-container{
+    align-items: start !important;
+  }
+}
+
+@media screen and (max-width:600px) {
+  .home-title h1{
+    font-size: 5rem !important;
+  }
+  .join-title h2{
+    font-size:  5rem !important;
+  }
+}
+
+@media screen and (max-width:800px) {
+  .nav-links{
+    display: none !important;
+  }
+  .hero{
+    padding: 4rem 1rem 0 1rem;
+  }
+
+  .home-title img{
+    display: none;
+  }
+  .join-title img{
+    display: none;
+  }
+
+  .market{
+    padding-top: 20rem;
+  }
+}
+
+@media screen and (max-width:900px) {
+  .choose-container{
+    flex-direction: column;
+    gap: 5rem;
+  }
+  .col{
+    width: 80% !important;
+  }
+}
+
+@media screen and (max-width:900px) {
+  .home-title{
+    margin-top: 30rem;
+  }
 }
 
 /* navbar */

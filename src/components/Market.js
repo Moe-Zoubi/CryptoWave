@@ -66,7 +66,7 @@ function Market() {
       };
 
     return(
-        <div className="market">
+        <div className="market" id="market">
             <h2>Market Update</h2>
             {marketTable()}
             <div className="page">

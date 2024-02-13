@@ -48,8 +48,10 @@
 
 .trending-container{
   display: flex;
-  justify-content: space-evenly ;
+  justify-content: center;
+  gap: 8rem;
   color: white;
+  flex-wrap: wrap;
 }
 
 .coin{
@@ -89,6 +91,8 @@
 
 .table-container {
   font-weight: 400;
+  overflow: hidden;
+  overflow-x: scroll;
 }
 
 table {
@@ -205,8 +209,8 @@ th:not(:first-child), td:not(:first-child) {
   justify-content: space-between;
   background-color: hsla(0,0%,100%,.05);
   padding: 1rem 2rem;
+  height: 200px;
   width: 100%;
-  height: 30%;
   border-radius: 15px;
   align-items: center;
 }
@@ -217,7 +221,7 @@ th:not(:first-child), td:not(:first-child) {
 
 .service-icon{
   font-size: 3rem;
-  height: 100%;
+  height: 50px;
   width: 10%;
   text-align: center;
   padding: 1rem;
@@ -248,7 +252,7 @@ th:not(:first-child), td:not(:first-child) {
   gap: 5rem;
 }
 
-.join-title h1{
+.join-title h2{
   width: fit-content;
   text-align: center;
   font-size: 9rem;
